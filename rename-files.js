@@ -9,7 +9,6 @@ const { readdirSync, renameSync, statSync } = require('fs');
 // process.argv.push('D:\\xampp\\htdocs\\Edio Repos\\cca28-edio\\frontend\\src\\modules\\directory\\blanketwaiver');
 // process.argv.push('itr');
 // process.argv.push('blanketwaiver');
-// process.argv.push(true);
 
 const [dir, search, replace] = process.argv.slice(2);
 console.log(process.argv);
